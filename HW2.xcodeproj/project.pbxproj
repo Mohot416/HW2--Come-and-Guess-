@@ -11,6 +11,7 @@
 		5B8E39BD25F5FC9D00AD4C4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E39BC25F5FC9D00AD4C4F /* ContentView.swift */; };
 		5B8E39BF25F5FCA000AD4C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8E39BE25F5FCA000AD4C4F /* Assets.xcassets */; };
 		5B8E39C225F5FCA000AD4C4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8E39C125F5FCA000AD4C4F /* Preview Assets.xcassets */; };
+		B283F13B25F7981B008F2E55 /* PoolofQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283F13A25F7981B008F2E55 /* PoolofQuestions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5B8E39BE25F5FCA000AD4C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8E39C125F5FCA000AD4C4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B8E39C325F5FCA000AD4C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B283F13A25F7981B008F2E55 /* PoolofQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolofQuestions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5B8E39BA25F5FC9D00AD4C4F /* HW2App.swift */,
 				5B8E39BC25F5FC9D00AD4C4F /* ContentView.swift */,
+				B283F13A25F7981B008F2E55 /* PoolofQuestions.swift */,
 				5B8E39BE25F5FCA000AD4C4F /* Assets.xcassets */,
 				5B8E39C325F5FCA000AD4C4F /* Info.plist */,
 				5B8E39C025F5FCA000AD4C4F /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B283F13B25F7981B008F2E55 /* PoolofQuestions.swift in Sources */,
 				5B8E39BD25F5FC9D00AD4C4F /* ContentView.swift in Sources */,
 				5B8E39BB25F5FC9D00AD4C4F /* HW2App.swift in Sources */,
 			);
