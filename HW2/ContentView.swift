@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  HW2
 //
-//  Created by User05 on 2021/3/8.
+//  Created by 00757031 on 2021/3/8.
 //
 
 import SwiftUI
@@ -50,11 +50,11 @@ struct Game: View {
                         Text(" ").padding()
                         Text(" ").padding()
                         Text(" ").padding()
-                        HStack{
-                            Text("Answer is ")
+                        HStack(alignment: .top, spacing: 20, content: {
+                            Text("Answer is")
                             Text(Questions[number].answer).background(Color.green)
-                        }
-                        Text("Press the link on the top to move next question, love U~").background(Color.yellow)
+                        })
+                        Text("Press the link on the top to move next question, love U~").padding().background(Color.yellow).cornerRadius(30.0)
                     }
                     //jump to final page after 10 questions
                     else{
@@ -71,11 +71,11 @@ struct ContentView: View {
         NavigationView{
             VStack{
                 Image("AS_Unity made by Mohot416").resizable().scaledToFit().padding()
-                Text("Hello there! I'm Jack!").background(Color.yellow)
-                Text("Let's get some fun~").background(Color.yellow)
+                Text("Hello there! I'm Jack!").background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                Text("Let's get some fun~").background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
                 //link to next page
                 NavigationLink(destination: Game()) {
-                        Text("Tap here to start!").foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/).padding()
+                    Text("Tap here to start!").foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/).padding()
                     }
             }.navigationTitle("Come and Guess!")
         }
